@@ -206,10 +206,11 @@ export default function Home() {
 
       <section className="section about-section" id="about">
         <div className="portrait-placeholder">
-          <div className="portrait-inner">
-            <span>JC</span>
-            <small>FOUNDER</small>
-          </div>
+          <img
+            className="founder-photo"
+            src="/Smiling%20Founder%20Portrait%20with%20Colorful%20Mandala%20Backdrop.png"
+            alt="Joe Costello, Founder and Managing Director"
+          />
         </div>
         <div className="about-copy">
           <div className="section-label">05 / LEADERSHIP</div>
