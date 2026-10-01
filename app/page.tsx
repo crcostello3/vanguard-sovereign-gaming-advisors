@@ -213,8 +213,8 @@ export default function Home() {
           <h2>Meet Joe Costello</h2>
           <p className="title">Founder & Managing Director</p>
           <p className="lead">
-            A proven, performance-driven casino executive and General Manager
-            with more than 15 years of progressive, multi-jurisdictional
+            A proven, performance-driven casino executive
+            with more than 25 years of progressive, multi-jurisdictional
             leadership.
           </p>
           <p className="body-copy">
