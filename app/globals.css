@@ -140,9 +140,9 @@ a { color: inherit; text-decoration: none; }
 .market svg { color: var(--gold-light); display: block; margin: 30px 0 20px; }
 .market h3 { font-size: 20px; font-weight: 500; margin: 0; }
 
-.about-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 9vw; align-items: center; }
-.portrait-placeholder { aspect-ratio: 4 / 5; max-width: 440px; position: relative; overflow: hidden; background: #17191b; }
-.founder-photo { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
+.about-section { display: grid; grid-template-columns: minmax(280px, 440px) minmax(0, 1fr); gap: 9vw; align-items: center; }
+.portrait-placeholder { width: 100%; max-width: 440px; height: 550px; position: relative; overflow: hidden; background: #17191b; }
+.founder-photo { display: block; width: 100% !important; height: 100% !important; max-width: 100%; object-fit: cover; object-position: center; }
 .about-copy .title { color: var(--gold); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin: 18px 0 25px; }
 .text-link { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); border-bottom: 1px solid var(--gold); padding-bottom: 7px; font-size: 11px; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; margin-top: 10px; }
 
