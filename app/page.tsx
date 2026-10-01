@@ -55,11 +55,7 @@ export default function Home() {
     <main>
       <nav className="nav">
         <a className="brand" href="#top" aria-label="Vanguard Sovereign Gaming Advisors home">
-          <span className="brand-mark">VS</span>
-          <span>
-            <strong>VANGUARD SOVEREIGN</strong>
-            <small>GAMING ADVISORS LLC</small>
-          </span>
+          <img className="brand-logo" src="/1790631209892.jpg" alt="Vanguard Sovereign Gaming Advisors LLC" />
         </a>
 
         <div className="nav-links">
@@ -271,11 +267,7 @@ export default function Home() {
 
       <footer className="footer">
         <div className="brand footer-brand">
-          <span className="brand-mark">VS</span>
-          <span>
-            <strong>VANGUARD SOVEREIGN</strong>
-            <small>GAMING ADVISORS LLC</small>
-          </span>
+          <img className="brand-logo" src="/1790631209892.jpg" alt="Vanguard Sovereign Gaming Advisors LLC" />
         </div>
         <p>Executive Casino Management Advisory</p>
         <a href="https://www.linkedin.com/company/vanguard-sovereign-gaming-advisors-llc/" target="_blank" rel="noreferrer">
